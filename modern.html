@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rojit Acharya | Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-sm sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-600">👨‍💻 Rojit Acharya</h1>
+      <nav class="space-x-6 hidden md:flex">
+        <a href="#services" class="hover:text-indigo-600 font-medium">Services</a>
+        <a href="#contact" class="hover:text-indigo-600 font-medium">Contact</a>
+      </nav>
+      <a href="#contact" class="bg-indigo-600 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-indigo-500 transition md:inline-block hidden">
+        Hire Me
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gradient-to-br from-indigo-600 to-purple-600 text-white py-20">
+    <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
+      <div class="mb-10 md:mb-0 md:w-1/2 text-center md:text-left">
+        <h2 class="text-4xl md:text-5xl font-extrabold leading-tight mb-6">
+          Build Your <span class="text-yellow-300">Dream Website</span><br>With a Trusted Developer
+        </h2>
+        <p class="text-lg mb-6">
+          I'm a passionate full-stack developer helping clients transform ideas into real digital products.
+        </p>
+        <a href="#contact" class="bg-white text-indigo-600 font-semibold py-3 px-6 rounded shadow hover:bg-gray-100 transition">
+          Let's Work Together
+        </a>
+      </div>
+      <div class="flex justify-center md:justify-end md:w-1/2">
+        <img src="1.jpg" alt="Profile Photo"
+             class="w-48 h-48 rounded-full border-4 border-white shadow-lg object-cover object-top" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Trusted by Clients Section -->
+  <section class="py-10 bg-white text-center">
+    <p class="text-gray-500 mb-6 uppercase tracking-wide">Trusted by clients worldwide</p>
+    <div class="flex flex-wrap items-center justify-center gap-8 opacity-80">
+      <a href="https://www.upwork.com/freelancers/your-upwork-profile" target="_blank" class="hover:opacity-100 transition">
+        <img src="upwork.png" alt="Upwork" class="h-8" />
+      </a>
+      <a href="https://www.fiverr.com/your-fiverr-profile" target="_blank" class="hover:opacity-100 transition">
+        <img src="fiver.png" alt="Fiverr" class="h-8" />
+      </a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="py-16 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-3xl font-bold mb-10 text-gray-800">What I Can Do For You</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold text-indigo-600 mb-2">Custom Websites</h3>
+          <p>Fully responsive websites tailored to your brand, optimized for performance and SEO.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold text-indigo-600 mb-2">Web Apps</h3>
+          <p>Interactive, database-driven apps with user authentication, admin panels, and more.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h3 class="text-xl font-semibold text-indigo-600 mb-2">UI/UX Design</h3>
+          <p>Clean, modern interface designs that give your users the best experience.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="bg-indigo-700 py-20 text-white text-center">
+    <h2 class="text-3xl font-bold mb-4">Ready to start your project?</h2>
+    <p class="mb-8 text-lg">Let’s bring your idea to life. I respond quickly!</p>
+
+    <form action="https://formspree.io/f/mpwrzkdg" method="POST" class="max-w-xl mx-auto text-left px-4">
+      <div class="mb-4">
+        <label for="name" class="block mb-2 font-semibold">Name</label>
+        <input type="text" id="name" name="name" required
+               class="w-full p-3 rounded text-gray-900" placeholder="Your Name" />
+      </div>
+      <div class="mb-4">
+        <label for="email" class="block mb-2 font-semibold">Email</label>
+        <input type="email" id="email" name="_replyto" required
+               class="w-full p-3 rounded text-gray-900" placeholder="Your Email" />
+      </div>
+      <div class="mb-4">
+        <label for="message" class="block mb-2 font-semibold">Message</label>
+        <textarea id="message" name="message" rows="5" required
+                  class="w-full p-3 rounded text-gray-900" placeholder="Your message..."></textarea>
+      </div>
+      <button type="submit"
+              class="bg-white text-indigo-700 font-semibold py-3 px-6 rounded shadow hover:bg-gray-200 transition">
+        Send Message
+      </button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-center text-white py-6">
+    <p>&copy; 2025 Rojit Acharya. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
