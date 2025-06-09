@@ -1,0 +1,21 @@
+#hr
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    font-size: 2em;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    line-height: 2;
+    text-align: center;
+    background-color: cadetblue;
+    text-shadow: 2px 2px 5px black;
+    
+}
+#p
+{
+    
+    white-space: pre;
+    direction: inherit;
+}
