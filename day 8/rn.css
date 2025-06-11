@@ -1,0 +1,85 @@
+.container {
+  width: 100%;
+  overflow: hidden; 
+}
+
+.box {
+  width: 45%; 
+  height: 100px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 1px solid #000;
+}
+
+.left-box {
+  float: left;
+  width: 45%;
+  height: 445px;
+}
+
+.right-box {
+  float: right;
+  width: 45%;
+  height: 445px;
+  background-color: palevioletred;
+
+}
+#img1
+{
+    width: 55px;
+    height:55px;
+    margin-left: 45%;
+}
+#img2
+{
+    width: 55px;
+    height: 55px;
+    margin-left:45%;
+}
+#h
+{
+  text-align: justify;
+  font-size: larger;
+}
+#k
+{
+  text-align: justify;
+  font-size: larger;
+}
+#button
+{
+border-radius: 50px;
+margin-left:24%;
+color: #000;
+font-style: italic;
+background-color: #000;
+color: aliceblue;
+width: 50%;
+height: 15%;
+}
+#BUTTONS
+{
+border-radius: 50px;
+margin-left:30%;
+font-style: italic;
+background-color: #000;
+color: aliceblue;
+width: 50%;
+height: 15%;
+}
+#Instagram
+{
+  font-size: 25px;
+  font-family: fantasy;
+  text-align: center;
+  color: antiquewhite;
+  text-shadow: 2px 2px 5px black;
+}
+#twitter
+{
+  font-size: 25px;
+  font-family: fantasy;
+  text-align: center;
+  color:antiquewhite;
+  text-shadow: 2px 2px 5px black;
+}

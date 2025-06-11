@@ -16,6 +16,8 @@
 #p
 {
     
-    white-space: pre;
-    direction: inherit;
+    white-space:initial;
+    direction:ltr;
+    white-space: initial;
+    text-decoration: none;
 }
