@@ -1,0 +1,21 @@
+.container
+{
+    display: flex;
+    height: 90px;
+    background-color:black;
+    justify-content:space-evenly;
+    align-items: center;
+  color: whitesmoke;
+}
+div > div:nth-child(1):hover {
+  background-color:blueviolet;
+}
+div > div:nth-child(2):hover {
+  background-color:rgb(92, 43, 226);
+}
+div > div:nth-child(3):hover {
+  background-color:rgb(177, 226, 43);
+}
+div > div:nth-child(4):hover {
+  background-color:rgb(226, 43, 43);
+}
