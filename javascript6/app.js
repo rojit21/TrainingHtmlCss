@@ -25,6 +25,6 @@ console.log("The number is still "+num);
 
 
 const marks=[11,27,35,45];
-marks.push(50);
+marks.shift();
 console.log("The array is: " + marks);
 console.log(typeof marks);

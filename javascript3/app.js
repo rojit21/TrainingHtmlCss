@@ -11,7 +11,7 @@ else{
 let number=60;
 if(number>90)
 {
-    console.log("A+")
+    console.log("A+");
 }
 else if(number > 50)
 {
