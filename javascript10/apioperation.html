@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script>
+        // axios
+
+        let data = axios.get('https://fakestoreapi.com/products').then((response) => {
+            console.log(response)
+        }).catch(() => {
+            console.log('Error fetching data')
+        })
+        // let data1 = axios.get('https://fakestoreapi.com/products').then((response) => {
+        //     console.log(response)
+        // }).catch(() => {
+        //     console.log('Error fetching data')
+        // })
+        // for (let i = 0; i < 10000000000; i++) {
+        //     // console.log(i)
+        // }
+        // console.log('end of loop')
+         
+        async function fetchData() {
+            try {
+                let response = await axios.get('https://fakestoreapi.com/products'); //pending 
+                // axios.get(https://fakestoreapi.com/products/respose.data[0].id);
+                console.log(response);
+            } catch (error) {
+                console.log('Error fetching data');
+            }
+        }
+    </script>
+</body>
+</html>
