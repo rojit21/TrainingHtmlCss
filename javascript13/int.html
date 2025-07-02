@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        document.write("Hello world");
+        const rat = [
+            {
+                title: "Hello ram ",
+                description: "This is the very complicated . . . .."
+            },
+            {
+                title: "new task ",
+                description: " This is deescription task "
+            },
+        ];
+        rat.forEach(item => {
+            document.write(`<h3>${item.title}</h3><p>${item.description}</p>`);
+        });
+    </script>
+</body>
+</html>
